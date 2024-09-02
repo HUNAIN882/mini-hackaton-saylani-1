@@ -1,34 +1,15 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.nav-item1 {
-    margin-left: 1000px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #ffffff;
+    border-radius: 2px solid #eee;
 }
-.nav-item1 {
-    margin-right: 10px;
-}
-.nav-item2 {
-    margin-right: 10px;
-}
-.nav-item3 {
-    margin-right: 10px;
-}
-.nav-item5 {
-    margin-right: 10px;
-}
-.card img {
-    width: 400px;
-    margin-left: 900px;
-}
-.card {
-    position: relative;
-   display: flex;
-    margin-left: 100px;
-}
-.card-title {
-   display: flex;
-    margin-left: 600px;
-    position: absolute;
+.logo {
+    
 }
