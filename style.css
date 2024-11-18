@@ -75,26 +75,15 @@ body {
     display: flex;
     justify-content: center;
 }
-.services {
-    padding: 40px 20px;
-    margin-bottom: center;
+
+.card {
+  margin-left: 800px;
+  margin-top: -360px;
 }
-.services h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-.service-cards {
-    display: flex;
-    justify-content: space-around;
-}
+
 .service-card {
-    background-color: #f3f3f3;
-    padding: 20px;
-    border-radius: 10px;
-    width: 45%;
-    text-align: center;
-    color: #fff;
-    transition: transform 0.3s;
+    margin-top: 40px;
+    margin-left: 100px;
 }
 .service-card:hover {
     transform: scale(1.05);
@@ -109,7 +98,6 @@ body {
     margin-bottom: 10px;
     color: #134B70;
 }
-
 .bag {
      /* width: 100%; */
      display: flex;
